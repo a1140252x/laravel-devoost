@@ -10,6 +10,16 @@ Proyecto de Prueba Laravel
 
 ---
 
+# Nombre del Proyecto
+
+Este proyecto fue desarrollado con:
+
+- [Laravel 12](https://laravel.com/)
+- [Inertia.js](https://inertiajs.com/)
+- [Vue 3](https://vuejs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+
+
 ## Instalación
 
 1. **Clonar el repositorio**
