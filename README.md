@@ -4,10 +4,9 @@ Proyecto de Prueba Laravel
 
 ## Requisitos
 
-- PHP >= 8.1
+- PHP >= 8.2
 - Composer
-- MySQL o PostgreSQL
-- Node.js y NPM (opcional, si usas frontend como Vite)
+- Node.js y NPM
 
 ---
 
@@ -20,21 +19,18 @@ git clone https://github.com/a1140252x/laravel-devoost.git
 cd laravel-devoost
 ```
 
-
-## Instalación
-
-1. **Dependencias de PHP**
+2. **Dependencias de PHP**
 ```bash
 composer install
 ```
 
-2. **Copiar el archivo .env y generar la clave de la app**
+3. **Copiar el archivo .env y generar la clave de la app**
 ```bash
 cp .env.example .env
 php artisan key:generate
 ```
 
-3. **Editar configuración del archivo .env (opcional)**
+4. **Editar configuración del archivo .env (opcional)**
 Opcionalmnete se pueden configurar los parametros para cambiar el gestor de base de datos. Originalmente está configurado para sqlite, adocional se provee un servicio de correo electronico para la prueba de reestablecer contraseña
 ```bash
 DB_CONNECTION=mysql
@@ -45,18 +41,18 @@ DB_USERNAME=db_username
 DB_PASSWORD=db_password
 ```
 
-4. **Ejecutar migraciones**
+5. **Ejecutar migraciones**
 ```bash
 php artisan migrate
 ```
 
-5. **Dependencias de npm**
+6. **Dependencias de npm**
 ```bash
 npm install
 npm run build
 ```
 
-6. **Iniciar servidor local**
+7. **Iniciar servidor local**
 ```bash
 php artisan serve
 ```
